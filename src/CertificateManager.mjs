@@ -6,8 +6,6 @@ export class CertificateManager {
     #application
     #path
 
-
-
     constructor (application, profile) {
         this.#path = profile ? `/certs/${profile}/` : "/certs/"
     }
@@ -50,7 +48,5 @@ export class CertificateManager {
     async getCertificateBuffer () {
         return await fs.promises.readFile(`${process.cwd()}/${this.#path}/certificate.pem`)
     }
-
-
 
 }
