@@ -42,20 +42,19 @@ The following command will install a DWA from repository alias:
 
     $ decent-cli install @futurehood/DCNT-JS-DWA-Template
 
+***NOTE:*** To bypass validating the DWA being installed, which will cause the installation to abort if failed, the ***--no-validate*** flag can be used:
 
-After executing one of the commands above, the user will be prompted to provide a directory name to store the application files in locally:
+    $ decent-cli install https://github.com/futurehood/DCNT-JS-DWA-Template --no-validate
+
+After executing one of the commands above successfully, the user will be prompted to provide a directory name to store the application files in locally:
 
     $ Suggested application installation path is "DCNT-JS-DWA-Template", proceed? y/n:
 
-An input of ***y*** or ***yes*** will cause the CLI to install the downloaded, validated DWA files in the specified location. An input of ***n*** or ***no*** will cause a second prompt to appear:
+An input of ***y*** or ***yes*** will cause the CLI to install the downloaded, validated DWA files to a directory of the specified name in the configured location for installed apps. An input of ***n*** or ***no*** will cause a second prompt to appear:
 
     $ Input the desired path for application installation:
 
 The received input will be used as the name of the local directory the application files are stored in.
-
-***NOTE:*** To bypass validating the DWA being installed, which will cause the installation to abort if failed, the ***--no-validate*** flag can be used:
-
-    $ decent-cli install https://github.com/futurehood/DCNT-JS-DWA-Template --no-validate
 
 <hr/>
 
