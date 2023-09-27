@@ -1,3 +1,5 @@
+<img src="readme/dcnt-compatible-badge.svg" width="300px" align="right">
+
 # DeCent-CLI
 
 DeCent-CLI is a Node.js-compatible toolset for building, testing, validating, managing, and self-hosting Decentralized Web Apps (DWAs). The package is also available on NPM <a href="">here</a>.
