@@ -1,5 +1,7 @@
 ## DeCent-CLI Usage Guide
 
+<hr/>
+
 ### Available Commands
 - **<a href="#test">test</a>**: The test command runs unit tests for a DWA. Coming soon.
 - **<a href="#validate">validate</a>**: The validate command validates that a package meets the DWA requirements.
@@ -8,9 +10,13 @@
 - **<a href="#server">server</a>**: The server command provides access to the embedded DCNT server.
 - **<a href="#launch">launch</a>**: The launch command launches a DWA in a web browser.
 
+<hr/>
+
 ### Test
 
 *Coming soon*
+
+<hr/>
 
 ### Validate
 
@@ -18,11 +24,11 @@ The following command will validate a DWA located in a directory named ***exampl
 
     $ decent-cli validate example-app
 
-The following command will validate a DWA located at remote URL ***https://remote-dwa.com***:
+The following command will validate a DWA located at remote URL ***https://futurehood.github.io/decent-messenger***:
 
     $ decent-cli validate https://futurehood.github.io/decent-messenger
 
-DeCent-CLI offers a variety of functionality to make developing DWAs as easy as possible. This section will provide an overview of that functionality and should clarify most confusion.
+<hr/>
 
 ### Install
 
@@ -30,11 +36,16 @@ The following command will download a DWA from a repository URL and install it l
 
     $ decent-cli install https://github.com/futurehood/DCNT-JS-DWA-Template
 
-The following command will validate a DWA located at remote URL ***https://remote-dwa.com***:
+The following command will download a DWA ZIP archive located at remote URL and install it locally:
 
     $ decent-cli install https://github.com/futurehood/DCNT-JS-DWA-Template/archive/refs/heads/main.zip
 
-After executing either of the commands above, the user will be prompted to provide a directory name to store the application files in locally:
+The following command will install a DWA from repository alias:
+
+    $ decent-cli install @futurehood/DCNT-JS-DWA-Template
+
+
+After executing one of the commands above, the user will be prompted to provide a directory name to store the application files in locally:
 
     $ Suggested application installation path is "DCNT-JS-DWA-Template", proceed? y/n:
 
@@ -49,3 +60,51 @@ To bypass validating the DWA being installed, which will cause the installation 
     $ decent-cli install https://github.com/futurehood/DCNT-JS-DWA-Template --no-validate
 
 DeCent-CLI offers a variety of functionality to make developing DWAs as easy as possible. This section will provide an overview of that functionality and should clarify most confusion.
+
+<hr/>
+
+### Uninstall
+
+The following command will uninstall a DWA installed locally in the given *appPath*
+
+    $ decent-cli uninstall DCNT-JS-DWA-Template
+
+<hr/>
+
+### Server
+
+The following command will start the embedded server using the ***default*** profile:
+
+    $ decent-cli server start
+
+The following command will start the embedded server using the specified ***example-profile*** profile:
+
+    $ decent-cli server start example-profile
+
+The following command will stop the embedded server:
+
+    $ decent-cli server stop
+
+<hr/>
+
+### Launch
+
+The following command will launch the specified locally-installed DWA in the default web browser:
+
+    $ decent-cli launch DCNT-JS-DWA-Template
+
+The following command will attempt to launch the specified locally-installed DWA in the Firefox web browser:
+
+    $ decent-cli launch DCNT-JS-DWA-Template firefox
+
+The following command will attempt to launch the specified locally-installed DWA in the Brave web browser:
+
+    $ decent-cli launch DCNT-JS-DWA-Template brave
+
+The following command will attempt to launch the specified locally-installed DWA in the Edge web browser:
+
+    $ decent-cli launch DCNT-JS-DWA-Template edge
+
+The following command will attempt to launch the specified locally-installed DWA in the Chrome web browser:
+
+    $ decent-cli launch DCNT-JS-DWA-Template chrome
