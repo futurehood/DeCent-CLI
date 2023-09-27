@@ -31,7 +31,7 @@ Installation is easy using **git** and **npm**:
 
     $ npm install
 
-Once installed, the CLI application can be run from the ***decent-cli*** executable.
+The CLI application can then be run from the ***decent-cli*** executable.
 
 ## Getting Started
 
