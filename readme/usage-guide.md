@@ -1,7 +1,5 @@
 ## DeCent-CLI Usage Guide
 
-<hr/>
-
 ### Available Commands
 - **<a href="#test">test</a>**: The test command runs unit tests for a DWA. Coming soon.
 - **<a href="#validate">validate</a>**: The validate command validates that a package meets the DWA requirements.
