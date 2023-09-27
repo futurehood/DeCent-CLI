@@ -24,7 +24,7 @@ The following command will validate a DWA located in a directory named ***exampl
 
     $ decent-cli validate example-app
 
-The following command will validate a DWA located at remote URL ***https://futurehood.github.io/decent-messenger***:
+The following command will validate a DWA located at a remote URL:
 
     $ decent-cli validate https://futurehood.github.io/decent-messenger
 
