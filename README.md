@@ -21,6 +21,16 @@ The CLI offers three primary benefits:
 2. **Install/Self-Host DWAs** - The CLI includes options to install DWAs locally for self-hosted access.
 3. **Embedded DCNT server** - The CLI includes an embedded DCNT-compatible signaling server for use in testing DCNT-powered peer connections between browsers.
 
+## Installation
+
+Installation is easy using **git** and **npm**:
+
+    $ git clone https://github.com/futurehood/DeCent-CLI
+
+    $ npm install
+
+Once installed, the CLI application can be run from the ***decent-cli*** executable.
+
 ## Getting Started
 
 Once DeCent-CLI has been installed, it can be run by calling the ***decent-cli*** executable:
