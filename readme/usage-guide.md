@@ -59,8 +59,6 @@ To bypass validating the DWA being installed, which will cause the installation 
 
     $ decent-cli install https://github.com/futurehood/DCNT-JS-DWA-Template --no-validate
 
-DeCent-CLI offers a variety of functionality to make developing DWAs as easy as possible. This section will provide an overview of that functionality and should clarify most confusion.
-
 <hr/>
 
 ### Uninstall
