@@ -53,9 +53,9 @@ An input of ***y*** or ***yes*** will cause the CLI to install the downloaded, v
 
     $ Input the desired path for application installation:
 
-Whatever is submitted here will be used as the installation directory.
+The received input will be used as the name of the directory the files are stored in.
 
-To bypass validating the DWA being installed, which will cause the installation to abort if failed, the --no-validate flag can be used:
+***NOTE:*** To bypass validating the DWA being installed, which will cause the installation to abort if failed, the ***--no-validate*** flag can be used:
 
     $ decent-cli install https://github.com/futurehood/DCNT-JS-DWA-Template --no-validate
 
