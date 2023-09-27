@@ -2,6 +2,8 @@
 
 # DeCent-CLI
 
+<img src="readme/decent-cli-logo-square.svg" width="200px" align="right">
+
 DeCent-CLI is a Node.js-compatible toolset for building, testing, validating, managing, and self-hosting Decentralized Web Apps (DWAs). The package is also available on NPM <a href="">here</a>.
 
 NOTE: An implementation of a DCNT server is included in the package to provide DCNT peer connection signaling and a self-hosted SSL/TLS context for locally-installed DWAs. The server class presumably has unrealized security vulnerabilities, so exposing it to a public network directly, especially continuously, is probably unwise. The environment is intended for DWA development and testing.
@@ -16,7 +18,7 @@ NOTE: An implementation of a DCNT server is included in the package to provide D
 
 ## Introduction
 
-DeCent-CLI is a CLI application written in JavaScript for Node.js and/or Node.js-compatible environments. There is a single NPM dependency on JSZIP, for extracting ZIP archives of downloaded DWAs. The CLI is intended to provide a simple, pain-free development experience for DWA developers by providing a toolset of shortcuts and conveniences for common tasks.
+DeCent-CLI is a command line interface application written in JavaScript for Node.js and/or Node.js-compatible environments. There is a single dependency on the JSZIP package, for extracting ZIP archives of downloaded DWAs. The CLI is intended to provide a simple, pain-free development experience for DWA developers by providing a toolset of shortcuts and conveniences for common tasks, as well as a testing environment for applications that rely on DCNT signaling to achieve peer connections.
 
 The CLI offers three primary benefits:
 1. **Test/Validate DWAs** - The CLI includes a tool to validate DWA packages, helping to ensure that the DWA ecosystem is standardized and interoperable. Testing framework coming soon.
@@ -31,7 +33,7 @@ Installation is easy using **git** and **npm**:
 
     $ npm install
 
-The CLI application can then be run from the ***decent-cli*** executable.
+Once installed, the CLI application can be run from the ***decent-cli*** executable.
 
 ## Getting Started
 
