@@ -1,4 +1,4 @@
-<img src="readme/dcnt-compatible-badge.svg" width="300px" align="right">
+<img src="readme/dcnt-compatible-badge.svg" width="200px" align="right">
 
 # DeCent-CLI
 
