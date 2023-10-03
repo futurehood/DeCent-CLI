@@ -38,9 +38,13 @@ The following command will download a DWA ZIP archive located at remote URL and 
 
     $ decent-cli install https://github.com/futurehood/DCNT-JS-DWA-Template/archive/refs/heads/main.zip
 
-The following command will install a DWA from repository alias:
+The following command will install a DWA from repository alias at the default provider (Github, by default):
 
     $ decent-cli install @futurehood/DCNT-JS-DWA-Template
+
+The following command will install a DWA from repository alias from a specified provider:
+
+    $ decent-cli install @username/repository codeberg
 
 ***NOTE:*** To bypass validating the DWA being installed, which will cause the installation to abort if failed, the ***--no-validate*** flag can be used:
 
