@@ -4,9 +4,6 @@
 
 <img src="readme/decent-cli-logo-square.svg" width="200px" align="right">
 
-<img src="readme/decent-cli-logo-full.svg" width="400px">
-
-
 
 DeCent-CLI is a Node.js-compatible toolset for building, testing, validating, managing, and self-hosting Decentralized Web Apps (DWAs). The package is also available on NPM <a href="">here</a>.
 
@@ -21,6 +18,8 @@ NOTE: An implementation of a DCNT server is included in the package to provide D
 - <a href="#contribute">Contribute</a>
 
 ## Introduction
+
+<img src="readme/decent-cli-logo-full.svg" width="500px">
 
 DeCent-CLI is a command line interface application written in JavaScript for Node.js and/or Node.js-compatible environments. There are a few external dependencies on the *JSZIP* package, for extracting ZIP archives of downloaded DWAs, *pem* for generating self-signed certificates, and *ws* for WebSocket functionality. The CLI is intended to provide a simple, pain-free development experience for DWA developers by providing a toolset of shortcuts and conveniences for common tasks, as well as a testing environment for applications that rely on DCNT signaling to achieve peer connections.
 
