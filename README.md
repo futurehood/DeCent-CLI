@@ -47,7 +47,7 @@ Running the executable without any arguments will bring up the command menu:
 
 <img src="/readme/decent-cli.png" width="65%">
 
-It's also possible to run the application with commands passed in as arguments. The following command will start the embedded DCNT server using the *default* profile:
+It's also possible to run the application with commands passed in as arguments on initial execution. The following command will start the embedded DCNT server using the *default* profile:
 
     $ decent-cli server start
 
