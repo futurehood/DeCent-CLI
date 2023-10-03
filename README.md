@@ -30,7 +30,7 @@ The CLI offers three primary benefits:
 Installation is easy using **git** and **npm**:
 
     $ git clone https://github.com/futurehood/DeCent-CLI
-    $ cd DeCent-CLI
+    $ cd decent-cli
     $ npm install -g 
     
 NOTE: Using the global installation flag (-g) is not required but recommended for convenience.
