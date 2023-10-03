@@ -16,5 +16,5 @@
 	"bin": {
 		"decent-cli": "src/bin/cli.mjs"
 	},
-	"description": "A toolset for crafting DWAs. Includes validation, build tools, development shortcuts, and an integrated DCNT server."
+	"description": "A toolset for crafting DWAs. Includes testing, validation, build tools, development shortcuts, and an integrated DCNT server."
 }
