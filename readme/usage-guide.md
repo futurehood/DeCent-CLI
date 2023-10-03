@@ -46,7 +46,7 @@ The following command will install a DWA from repository alias from a specified 
 
     $ decent-cli install @username/repository codeberg
 
-***NOTE:*** To bypass validating the DWA being installed, which will cause the installation to abort if failed, the ***--no-validate*** flag can be used:
+***NOTE:*** To bypass validating the DWA being installed, which will cause the installation to abort if failed, the ***--no-validate*** flag can be used (not yet implemented):
 
     $ decent-cli install https://github.com/futurehood/DCNT-JS-DWA-Template --no-validate
 
