@@ -18,7 +18,7 @@ NOTE: An implementation of a DCNT server is included in the package to provide D
 
 ## Introduction
 
-DeCent-CLI is a command line interface application written in JavaScript for Node.js and/or Node.js-compatible environments. There is a single external dependency on the JSZIP package, for extracting ZIP archives of downloaded DWAs. The CLI is intended to provide a simple, pain-free development experience for DWA developers by providing a toolset of shortcuts and conveniences for common tasks, as well as a testing environment for applications that rely on DCNT signaling to achieve peer connections.
+DeCent-CLI is a command line interface application written in JavaScript for Node.js and/or Node.js-compatible environments. There are a few external dependencies on the *JSZIP* package, for extracting ZIP archives of downloaded DWAs, *pem* for generating self-signed certificates, and *ws* for WebSocket functionality. The CLI is intended to provide a simple, pain-free development experience for DWA developers by providing a toolset of shortcuts and conveniences for common tasks, as well as a testing environment for applications that rely on DCNT signaling to achieve peer connections.
 
 The CLI offers three primary benefits:
 1. **Test/Validate DWAs** - The CLI includes a tool to validate DWA packages, helping to ensure that the DWA ecosystem is standardized and interoperable. Testing framework coming soon.
