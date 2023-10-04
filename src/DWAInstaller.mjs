@@ -275,8 +275,28 @@ export class DWAInstaller {
         throw new Error("Alias is invalid")
     }
 
+    async #hasAppsDirectory () {
+        try {
+            await fs.promises.access(this.#path)
+            return true
+        } catch (error) {
+            return false
+        }
+    }
+
+    async #createAppsDirectory () {
+        try {
+            return await fs.promises.mkdir(this.#path)
+        } catch (error) {
+            throw new Error("Could not create the profiles directory, check environment directory permissions.")
+        }
+    }
+
     async install (source, appPath, provider) {
         try {
+            if (!await this.#hasAppsDirectory()) {
+                await this.#createAppsDirectory()
+            }
             if (source.startsWith("@")) {
                 source = await this.#getURLFromAlias(source, provider)
             }
