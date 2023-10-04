@@ -12,7 +12,7 @@
 	},
 	"keywords": [],
 	"author": "Future Hood",
-	"license": "MIT",
+	"license": "GFY",
 	"bin": {
 		"decent-cli": "src/bin/cli.mjs"
 	},
